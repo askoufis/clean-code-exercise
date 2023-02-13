@@ -1,0 +1,6 @@
+{
+  "extends": "seek",
+  "rules": {
+    "jest/no-deprecated-functions": "off"
+  }
+}
