@@ -8,8 +8,8 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --write .",
     "lint:tsc": "tsc --noEmit",
-    "run": "tsx src/index.ts",
-    "test": "vitest"
+    "transform": "tsx src/index.ts",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
