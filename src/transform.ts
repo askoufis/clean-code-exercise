@@ -6,11 +6,11 @@ export const transform = (strs: string[]): string[] =>
     const poplrLtr = findPoplrLtr(s);
     // Re-assign the output to a variable to avoid mutating the input argument
     let outputString = s;
-    // This loop executes however many times characters long the word is
+    // Loop executes N times, where n is the length of s (the word)
     for (let i = 0; i < len; i++) {
       outputString = `${poplrLtr}${outputString}${poplrLtr}`;
     }
-    // This loop also executes however many characters long the word is
+    // Loop executes N times, where n is the length of s (the word)
     for (let i = 0; i < len; i++) {
       outputString = `${len}${outputString}${len}`;
     }
