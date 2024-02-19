@@ -1,6 +1,7 @@
 {
   "extends": "seek",
   "rules": {
+    // We're using vitest, and this setting stops eslint complaining about not finding a jest version
     "jest/no-deprecated-functions": "off"
   }
 }
