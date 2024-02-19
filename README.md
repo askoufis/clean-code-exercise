@@ -15,15 +15,14 @@ pnpm lint
 pnpm test
 ```
 
-## Run
+## Run tests
 
-Run the program by running `pnpm transform` and adding extra words after:
+Run tests in watch mode so you can see if they break when you make a change:
 
 ```sh
-pnpm transform the quick brown fox
+pnpm test:watch
 ```
 
 ## Goal
 
-Examine the code (ignore `index.ts`) and try to improve it by applying clean code principles.
-Run the lints and tests to make sure you didn't break anything.
+Examine the code in `index.ts` and try to refactor it to make it cleaner and more maintainable.

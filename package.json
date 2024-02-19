@@ -6,7 +6,6 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --write .",
     "lint:tsc": "tsc --noEmit",
-    "transform": "tsx src/index.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
