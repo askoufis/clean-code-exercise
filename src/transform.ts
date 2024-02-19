@@ -28,7 +28,7 @@ export const findPoplrLtr = (s: string): string => {
   });
   return (
     Object.entries(ltrCount).sort(
-      ([_char1, count1], [_char2, count2]) => count2 - count1
+      ([_char1, count1], [_char2, count2]) => count2 - count1,
     )?.[0]?.[0] || ""
   );
 };
